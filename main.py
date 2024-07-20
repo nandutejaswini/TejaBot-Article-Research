@@ -12,8 +12,8 @@ from langchain.vectorstores import FAISS
 from dotenv import load_dotenv
 load_dotenv()  # take environment variables from .env (especially openai api key)
 
-st.title("TejaBot: News Research Tool 📈")
-st.sidebar.title("News Article URLs")
+st.title("TejaBot: Ask Anything 📈")
+st.sidebar.title("Article URLs")
 
 urls = []
 for i in range(4):
